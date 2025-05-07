@@ -3,7 +3,6 @@
 
 body {
     font-family: 'Outfit', sans-serif;
-    background-color: hls(30, 54%, 90%);
     margin: 0;
     padding: 2rem;
     display: flex;
