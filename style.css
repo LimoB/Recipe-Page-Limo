@@ -27,6 +27,13 @@ body {
   h1 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+  }
+
+  hr{
+    border-radius: none;
+    
   }
 
   p.description {
