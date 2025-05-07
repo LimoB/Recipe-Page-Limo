@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hls(30, 54%, 90%);
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 12px;
+    max-width: 600px;
+    padding: 2rem;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  }
+
+  .card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p.description {
+    color: #555;
+    margin-bottom: 1.5rem;
+    font-size: 16px;
+  }
+
+  .prep-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+
+  .prep-time strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: hsl(332, 51%, 32%);
+  }
+
+  h2 {
+    color: hsl(14, 45%, 36%);
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  ul, ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  ul li, ol li {
+    margin-bottom: 0.5rem;
+  }
+
+  .nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+
+  .nutrition-table th, .nutrition-table td {
+    border-bottom: 1px solid #ddd;
+    padding: 0.5rem 0;
+    text-align: left;
+  }
+
+  .nutrition-table th {
+    font-weight: normal;
+    color:  hsl(30, 10%, 34%)
+  }
+
+  .nutrition-table td:last-child {
+    text-align: center;
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+  }
